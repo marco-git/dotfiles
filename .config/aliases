@@ -1,0 +1,11 @@
+alias ll="ls -l --color=auto"
+alias la='ls -la'
+alias src='cd $HOME/.local/src/'
+alias pong='ping router'
+
+#alias screen='screen -c $HOME/.config/screenrc'
+
+alias anime="cd /media/marco/WD500/Film/anime"
+alias wd500="cd /media/marco/WD500"
+
+alias mydot='/usr/bin/git --git-dir=/home/marco/.cfg/ --work-tree=/home/marco'
