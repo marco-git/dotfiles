@@ -1,0 +1,18 @@
+# Reload functions
+super + Escape
+	"$XDG_CONFIG_HOME"/sxhkd/functions
+
+super + alt + s
+	/usr/bin/surf www.duckduckgo.com
+super + alt + Return
+	/usr/local/bin/st -f "Liberation Mono:size=20" $HOME/.local/bin/myscreen -S Marco
+super + alt + m
+	/usr/local/bin/st -f "Liberation Mono:size=20"
+super + alt + f
+	/usr/bin/firefox
+super + alt + v
+	"$HOME"/.local/bin/video.sh
+super + alt + r
+	"$HOME"/.config/scripts/reading/reading_now
+super + alt + e
+	/usr/bin/emacs
