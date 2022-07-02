@@ -1,0 +1,29 @@
+;;;; config
+
+;; Set prefix key
+(set-prefix-key (kbd "C-r"))
+
+;; Set font
+(set-font "-*-*-*-*-*-*-24-*-*-*-*-*-*-*")
+
+;; set desktop background color
+(setf (xlib:window-background (screen-root (current-screen))) #x47456d)
+;; set wallpaper
+(run-shell-command "feh --bg-fill ~/dox/wp/wallpaper.jpg")
+
+;; message and input window location
+(setf *message-window-gravity* :center)
+(setf *input-window-gravity* :center)
+
+;; Focus follows mouse click
+(setf *mouse-focus-policy* :click)
+
+;; Basic modeline
+(setf *window-format* "%m%n%s%c")
+(setf *screen-mode-line-format* (list "[^B%n^b] %W^>%d"))
+;(setf *mode-line-border-width* 5)
+;(enable-mode-line (current-screen) (current-head) t)
+;; When updating every X seconds the mode line, remember to toggle it after
+(setf *mode-line-timeout* 5)
+(toggle-mode-line (current-screen) (current-head))
+
