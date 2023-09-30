@@ -3,7 +3,8 @@
 #set editing-mode vi
 set show-mode-in-prompt on
 
-#set colored-stats on
+set show-all-if-ambiguous on
+#set completion-ignore-case on
 
 # Alt + s
 #  prepend with sudo
@@ -25,3 +26,8 @@ set colored-completion-prefix On
 
 # Color the common prefix in menu-complete
 set menu-complete-display-prefix On
+
+# History prefix search
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
