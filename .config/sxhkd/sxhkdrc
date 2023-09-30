@@ -6,13 +6,28 @@ super + alt + s
 	/usr/bin/surf www.duckduckgo.com
 super + alt + Return
 	/usr/local/bin/st -f "Liberation Mono:size=20" $HOME/.local/bin/myscreen -S Marco
-super + alt + m
-	/usr/local/bin/st -f "Liberation Mono:size=20"
+##super + alt + m
+##	/usr/local/bin/st -f "Liberation Mono:size=20"
 super + alt + f
 	/usr/bin/firefox
+super + alt + g
+	"$HOME"/.local/bin/firefox_tryhackme.sh
 super + alt + v
 	"$HOME"/.local/bin/video.sh
+super + alt + a
+	"$HOME"/.local/bin/alacritty
+super + alt + k
+	"$HOME"/.local/bin/kitty.sh
+super + alt + b
+	"$HOME"/.local/bin/bookmark.sh
 super + alt + r
 	"$HOME"/.config/scripts/reading/reading_now
+
 super + alt + e
 	/usr/bin/emacs
+super + alt + c
+	/usr/bin/chromium
+super + alt + m
+	/usr/bin/virt-manager
+super + alt + x
+	/usr/bin/xtigervncviewer
